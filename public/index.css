@@ -1,0 +1,152 @@
+/* Reset default margins and paddings */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.uplers.com/wp-content/uploads/2020/04/Top-5-Debugging-Tools-Your-Front-end-Developers-Should-Have-Hands-On.jpg");
+    background-size: cover;
+            background-repeat: no-repeat;
+}
+
+/* Center the content vertically and horizontally */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the input container */
+#input-cont {
+    margin-bottom: 30px;
+}
+
+/* Style the label */
+label {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the textarea */
+textarea {
+    width: 600px;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    resize: vertical;
+}
+
+/* Style the select container */
+.select-language {
+    margin-bottom: 30px;
+}
+
+/* Style the select label */
+.select-language label {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the select */
+select {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+}
+
+/* Style the buttons container */
+.buttons {
+    margin-bottom: 30px;
+}
+
+/* Style the buttons */
+button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 15px;
+}
+
+/* Add hover effect to the buttons */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style the output heading */
+h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#output-heading{
+    color: rgb(250, 163, 0);
+}
+/* Style the output textarea */
+#output {
+    width: 600px;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    resize: vertical;
+}
+
+/* Add a box shadow to the container */
+.container {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add a hover effect to the buttons */
+button:hover {
+    background-color: #52c257;
+    transform: scale(1.05);
+}
+
+/* Add a hover effect to the textarea */
+textarea:hover,
+textarea:focus {
+    border-color: #52c257;
+    box-shadow: 0 0 10px rgba(82, 194, 87, 0.5);
+}
+
+/* Add a hover effect to the select */
+select:hover,
+select:focus {
+    border-color: #52c257;
+    box-shadow: 0 0 10px rgba(82, 194, 87, 0.5);
+}
+
+/* Add a hover effect to the output textarea */
+#output:hover,
+#output:focus {
+    border-color: #52c257;
+    box-shadow: 0 0 10px rgba(82, 194, 87, 0.5);
+}
